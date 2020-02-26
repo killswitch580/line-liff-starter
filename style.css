@@ -5,7 +5,7 @@ html{
 body {
   background-image: url("https://i.imgur.com/ihYa0RS.gif");
   background-color: #cccccc;
-  height: 100vh;
+  height: 100%;
   margin: 0; 
   padding: 0;
 }
