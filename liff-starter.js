@@ -18,7 +18,7 @@ function getP(){
         document.getElementById('imagex').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: atob('bGluZTovL2FwcC8xNjAyNjg3MzA4LURnZWRHazlBP3R5cGU9aW1hZ2UmaW1nPWh0dHBzOi8vd2FsbHBhcGVyc3R1ZGlvMTAuY29tL3N0YXRpYy93cGRiL3dhbGxwYXBlcnMvMTAwMHg1NjMvMTY4ODkxLmpwZwoKdHlwZSA9PiBpbWFnZQppbWcgPT4gTGluayAobXVzdCBiZSBIVFRQUyk=')
+                text: 'line://app/1653887637-pqx6Dgwl?type=image&img=https://is.gd/urwe1g\n\ntype > image\nimg > Link (HTTPS)'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -26,7 +26,7 @@ function getP(){
         document.getElementById('videox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: atob('bGluZTovL2FwcC8xNjAyNjg3MzA4LURnZWRHazlBP3R5cGU9dmlkZW8mb2N1PWh0dHBzOi8vdGlueXVybC5jb20veThvZzNvcjUmcGl1PWh0dHBzOi8vaW1hZ2VzNi5hbHBoYWNvZGVycy5jb20vNzEwL3RodW1iLTM1MC03MTAxMzIucG5nCgp0eXBlID0+IHZpZGVvCm9jdSA9PiB2aWRlbyB1cmwKcGl1ID0+IHByZXZpZXcgaW1hZ2U=')
+                text: 'line://app/1653887637-pqx6Dgwl?type=video&ocu=https://is.gd/0Invtt&piu=https://is.gd/urwe1g\n\ntype > video\nocu > video url\npiu > preview image'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -34,7 +34,7 @@ function getP(){
         document.getElementById('audiox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: atob('bGluZTovL2FwcC8xNjAyNjg3MzA4LURnZWRHazlBP3R5cGU9YXVkaW8mbGluaz1odHRwczovL3Rpbnl1cmwuY29tL3liMnZjdWt5')
+                text: 'line://app/1653887637-pqx6Dgwl?type=audio&link=https://platelets.fun/public/sounds/music.mp3\n\ntype > audio\nlink > audio link'
             }]).then(function () {
                 liff.closeWindow();
             });
