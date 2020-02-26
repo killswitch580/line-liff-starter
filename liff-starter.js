@@ -18,7 +18,7 @@ function getP(){
         document.getElementById('imagex').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1653887637-pqx6Dgwl?type=image&img=https://is.gd/urwe1g\n\ntype > image\nimg > Link (HTTPS)'
+                text: 'https://www.google.com'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -26,7 +26,7 @@ function getP(){
         document.getElementById('videox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1653887637-pqx6Dgwl?type=video&ocu=https://is.gd/0Invtt&piu=https://is.gd/urwe1g\n\ntype > video\nocu > video url\npiu > preview image'
+                text: 'https://freemp3downloads.online/download?url='
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -34,7 +34,7 @@ function getP(){
         document.getElementById('audiox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'line://app/1653887637-pqx6Dgwl?type=audio&link=https://platelets.fun/public/sounds/music.mp3\n\ntype > audio\nlink > audio link'
+                text: 'https://freemp3downloads.online/download?url='
             }]).then(function () {
                 liff.closeWindow();
             });
