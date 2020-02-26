@@ -18,7 +18,7 @@ function getP(){
         document.getElementById('imagex').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'https://www.google.com'
+                text: 'No image yet.'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -26,7 +26,7 @@ function getP(){
         document.getElementById('videox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'https://freemp3downloads.online/download?url='
+                text: 'No video yet.'
             }]).then(function () {
                 liff.closeWindow();
             });
@@ -34,7 +34,7 @@ function getP(){
         document.getElementById('audiox').addEventListener('click', function () {
             liff.sendMessages([{
                 type: 'text',
-                text: 'https://freemp3downloads.online/download?url='
+                text: 'No audio yet.'
             }]).then(function () {
                 liff.closeWindow();
             });
