@@ -3,11 +3,8 @@ html{
 }
 
 body {
-  background: -webkit-linear-gradient(200deg, #00C4FF, #9D1BB2);
-  background: linear-gradient(205deg, #00C4FF, #9D1BB2);
-  height: 100vh;
-  margin: 0; 
-  padding: 0;
+  background-image: url("https://i.pinimg.com/originals/41/4e/2f/414e2f14bbfb7adeb50c19631169e69b.gif");
+  background-color: #cccccc;
 }
 
 .dark {
